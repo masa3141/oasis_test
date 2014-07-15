@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D13632A196E1AE400683FF8 /* DetailRoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D136329196E1AE400683FF8 /* DetailRoomViewController.m */; };
+		4DAF58A41970372E0032F2A9 /* DiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAF58A31970372E0032F2A9 /* DiscoverViewController.m */; };
+		4DAF58AA197041300032F2A9 /* HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAF58A9197041300032F2A9 /* HistoryViewController.m */; };
+		4DAF58AD1970415F0032F2A9 /* FavoriteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAF58AC1970415F0032F2A9 /* FavoriteViewController.m */; };
+		4DAF58B31970478F0032F2A9 /* HistoryDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAF58B21970478F0032F2A9 /* HistoryDetailViewController.m */; };
+		4DAF58B6197215BE0032F2A9 /* HistoryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAF58B5197215BE0032F2A9 /* HistoryTableViewController.m */; };
+		4DAF58B919721E5A0032F2A9 /* ListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAF58B819721E5A0032F2A9 /* ListTableViewController.m */; };
+		4DAF58BB197241C30032F2A9 /* oasisLogo3.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DAF58BA197241C30032F2A9 /* oasisLogo3.png */; };
+		4DAF58BD197244750032F2A9 /* oasisLogo6.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DAF58BC197244750032F2A9 /* oasisLogo6.png */; };
 		4DF71552196C2B4A008D0DCF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DF71551196C2B4A008D0DCF /* Foundation.framework */; };
 		4DF71554196C2B4A008D0DCF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DF71553196C2B4A008D0DCF /* CoreGraphics.framework */; };
 		4DF71556196C2B4A008D0DCF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DF71555196C2B4A008D0DCF /* UIKit.framework */; };
@@ -21,6 +30,12 @@
 		4DF71573196C2B4A008D0DCF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DF71555196C2B4A008D0DCF /* UIKit.framework */; };
 		4DF7157B196C2B4A008D0DCF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4DF71579196C2B4A008D0DCF /* InfoPlist.strings */; };
 		4DF7157D196C2B4A008D0DCF /* oasis_testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF7157C196C2B4A008D0DCF /* oasis_testTests.m */; };
+		4DF71589196D2681008D0DCF /* example1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4DF71586196D2681008D0DCF /* example1.jpg */; };
+		4DF7158A196D2681008D0DCF /* example2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4DF71587196D2681008D0DCF /* example2.jpg */; };
+		4DF7158B196D2681008D0DCF /* example3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4DF71588196D2681008D0DCF /* example3.jpg */; };
+		4DF7158E196D4CCC008D0DCF /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF7158D196D4CCC008D0DCF /* MapViewController.m */; };
+		4DF71590196D4D9C008D0DCF /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DF7158F196D4D9C008D0DCF /* MapKit.framework */; };
+		4DF71593196D4DC1008D0DCF /* CustomAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF71592196D4DC1008D0DCF /* CustomAnnotation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +49,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D136328196E1AE400683FF8 /* DetailRoomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailRoomViewController.h; sourceTree = "<group>"; };
+		4D136329196E1AE400683FF8 /* DetailRoomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailRoomViewController.m; sourceTree = "<group>"; };
+		4DAF58A21970372E0032F2A9 /* DiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoverViewController.h; sourceTree = "<group>"; };
+		4DAF58A31970372E0032F2A9 /* DiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoverViewController.m; sourceTree = "<group>"; };
+		4DAF58A8197041300032F2A9 /* HistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryViewController.h; sourceTree = "<group>"; };
+		4DAF58A9197041300032F2A9 /* HistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryViewController.m; sourceTree = "<group>"; };
+		4DAF58AB1970415F0032F2A9 /* FavoriteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoriteViewController.h; sourceTree = "<group>"; };
+		4DAF58AC1970415F0032F2A9 /* FavoriteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoriteViewController.m; sourceTree = "<group>"; };
+		4DAF58B11970478F0032F2A9 /* HistoryDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryDetailViewController.h; sourceTree = "<group>"; };
+		4DAF58B21970478F0032F2A9 /* HistoryDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryDetailViewController.m; sourceTree = "<group>"; };
+		4DAF58B4197215BE0032F2A9 /* HistoryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryTableViewController.h; sourceTree = "<group>"; };
+		4DAF58B5197215BE0032F2A9 /* HistoryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryTableViewController.m; sourceTree = "<group>"; };
+		4DAF58B719721E5A0032F2A9 /* ListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListTableViewController.h; sourceTree = "<group>"; };
+		4DAF58B819721E5A0032F2A9 /* ListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListTableViewController.m; sourceTree = "<group>"; };
+		4DAF58BA197241C30032F2A9 /* oasisLogo3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = oasisLogo3.png; sourceTree = "<group>"; };
+		4DAF58BC197244750032F2A9 /* oasisLogo6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = oasisLogo6.png; sourceTree = "<group>"; };
 		4DF7154E196C2B4A008D0DCF /* oasis_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = oasis_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DF71551196C2B4A008D0DCF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4DF71553196C2B4A008D0DCF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +84,14 @@
 		4DF71578196C2B4A008D0DCF /* oasis_testTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "oasis_testTests-Info.plist"; sourceTree = "<group>"; };
 		4DF7157A196C2B4A008D0DCF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4DF7157C196C2B4A008D0DCF /* oasis_testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = oasis_testTests.m; sourceTree = "<group>"; };
+		4DF71586196D2681008D0DCF /* example1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = example1.jpg; sourceTree = "<group>"; };
+		4DF71587196D2681008D0DCF /* example2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = example2.jpg; sourceTree = "<group>"; };
+		4DF71588196D2681008D0DCF /* example3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = example3.jpg; sourceTree = "<group>"; };
+		4DF7158C196D4CCC008D0DCF /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		4DF7158D196D4CCC008D0DCF /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		4DF7158F196D4D9C008D0DCF /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		4DF71591196D4DC1008D0DCF /* CustomAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAnnotation.h; sourceTree = "<group>"; };
+		4DF71592196D4DC1008D0DCF /* CustomAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAnnotation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DF71590196D4D9C008D0DCF /* MapKit.framework in Frameworks */,
 				4DF71554196C2B4A008D0DCF /* CoreGraphics.framework in Frameworks */,
 				4DF71556196C2B4A008D0DCF /* UIKit.framework in Frameworks */,
 				4DF71552196C2B4A008D0DCF /* Foundation.framework in Frameworks */,
@@ -101,6 +141,7 @@
 		4DF71550196C2B4A008D0DCF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4DF7158F196D4D9C008D0DCF /* MapKit.framework */,
 				4DF71551196C2B4A008D0DCF /* Foundation.framework */,
 				4DF71553196C2B4A008D0DCF /* CoreGraphics.framework */,
 				4DF71555196C2B4A008D0DCF /* UIKit.framework */,
@@ -117,6 +158,29 @@
 				4DF71563196C2B4A008D0DCF /* Main.storyboard */,
 				4DF71566196C2B4A008D0DCF /* ViewController.h */,
 				4DF71567196C2B4A008D0DCF /* ViewController.m */,
+				4DAF58A21970372E0032F2A9 /* DiscoverViewController.h */,
+				4DAF58A31970372E0032F2A9 /* DiscoverViewController.m */,
+				4DAF58B719721E5A0032F2A9 /* ListTableViewController.h */,
+				4DAF58B819721E5A0032F2A9 /* ListTableViewController.m */,
+				4DF7158C196D4CCC008D0DCF /* MapViewController.h */,
+				4DF7158D196D4CCC008D0DCF /* MapViewController.m */,
+				4DF71591196D4DC1008D0DCF /* CustomAnnotation.h */,
+				4DF71592196D4DC1008D0DCF /* CustomAnnotation.m */,
+				4D136328196E1AE400683FF8 /* DetailRoomViewController.h */,
+				4D136329196E1AE400683FF8 /* DetailRoomViewController.m */,
+				4DAF58A8197041300032F2A9 /* HistoryViewController.h */,
+				4DAF58A9197041300032F2A9 /* HistoryViewController.m */,
+				4DAF58B11970478F0032F2A9 /* HistoryDetailViewController.h */,
+				4DAF58B21970478F0032F2A9 /* HistoryDetailViewController.m */,
+				4DAF58AB1970415F0032F2A9 /* FavoriteViewController.h */,
+				4DAF58AC1970415F0032F2A9 /* FavoriteViewController.m */,
+				4DAF58B4197215BE0032F2A9 /* HistoryTableViewController.h */,
+				4DAF58B5197215BE0032F2A9 /* HistoryTableViewController.m */,
+				4DAF58BC197244750032F2A9 /* oasisLogo6.png */,
+				4DAF58BA197241C30032F2A9 /* oasisLogo3.png */,
+				4DF71586196D2681008D0DCF /* example1.jpg */,
+				4DF71587196D2681008D0DCF /* example2.jpg */,
+				4DF71588196D2681008D0DCF /* example3.jpg */,
 				4DF71569196C2B4A008D0DCF /* Images.xcassets */,
 				4DF71558196C2B4A008D0DCF /* Supporting Files */,
 			);
@@ -228,9 +292,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DAF58BB197241C30032F2A9 /* oasisLogo3.png in Resources */,
+				4DF71589196D2681008D0DCF /* example1.jpg in Resources */,
 				4DF7156A196C2B4A008D0DCF /* Images.xcassets in Resources */,
 				4DF7155C196C2B4A008D0DCF /* InfoPlist.strings in Resources */,
 				4DF71565196C2B4A008D0DCF /* Main.storyboard in Resources */,
+				4DF7158B196D2681008D0DCF /* example3.jpg in Resources */,
+				4DF7158A196D2681008D0DCF /* example2.jpg in Resources */,
+				4DAF58BD197244750032F2A9 /* oasisLogo6.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,9 +318,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DAF58B6197215BE0032F2A9 /* HistoryTableViewController.m in Sources */,
+				4DAF58AD1970415F0032F2A9 /* FavoriteViewController.m in Sources */,
+				4DF71593196D4DC1008D0DCF /* CustomAnnotation.m in Sources */,
 				4DF71568196C2B4A008D0DCF /* ViewController.m in Sources */,
+				4DAF58AA197041300032F2A9 /* HistoryViewController.m in Sources */,
+				4DAF58B31970478F0032F2A9 /* HistoryDetailViewController.m in Sources */,
+				4DAF58A41970372E0032F2A9 /* DiscoverViewController.m in Sources */,
+				4D13632A196E1AE400683FF8 /* DetailRoomViewController.m in Sources */,
 				4DF71562196C2B4A008D0DCF /* AppDelegate.m in Sources */,
 				4DF7155E196C2B4A008D0DCF /* main.m in Sources */,
+				4DF7158E196D4CCC008D0DCF /* MapViewController.m in Sources */,
+				4DAF58B919721E5A0032F2A9 /* ListTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,10 +454,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Kazama Masahiro (F74B9XG985)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "oasis_test/oasis_test-Prefix.pch";
 				INFOPLIST_FILE = "oasis_test/oasis_test-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "79AC05C1-19F9-4E22-A2A0-80C004BBD317";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -389,10 +472,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Kazama Masahiro (F74B9XG985)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "oasis_test/oasis_test-Prefix.pch";
 				INFOPLIST_FILE = "oasis_test/oasis_test-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "79AC05C1-19F9-4E22-A2A0-80C004BBD317";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -456,6 +543,7 @@
 				4DF71582196C2B4A008D0DCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4DF71583196C2B4A008D0DCF /* Build configuration list for PBXNativeTarget "oasis_testTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +552,7 @@
 				4DF71585196C2B4A008D0DCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
