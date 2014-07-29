@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		4D13632A196E1AE400683FF8 /* DetailRoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D136329196E1AE400683FF8 /* DetailRoomViewController.m */; };
+		4D6AEEA81987D9650058200C /* wifi.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D6AEEA71987D9650058200C /* wifi.png */; };
+		4D6AEEAC1987D9C60058200C /* ame3.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D6AEEA91987D9C60058200C /* ame3.png */; };
+		4D6AEEAD1987D9C60058200C /* ame2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D6AEEAA1987D9C60058200C /* ame2.png */; };
+		4D6AEEAE1987D9C60058200C /* ame1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D6AEEAB1987D9C60058200C /* ame1.png */; };
 		4DAF58A41970372E0032F2A9 /* DiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAF58A31970372E0032F2A9 /* DiscoverViewController.m */; };
 		4DAF58AA197041300032F2A9 /* HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAF58A9197041300032F2A9 /* HistoryViewController.m */; };
 		4DAF58AD1970415F0032F2A9 /* FavoriteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAF58AC1970415F0032F2A9 /* FavoriteViewController.m */; };
@@ -51,6 +55,10 @@
 /* Begin PBXFileReference section */
 		4D136328196E1AE400683FF8 /* DetailRoomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailRoomViewController.h; sourceTree = "<group>"; };
 		4D136329196E1AE400683FF8 /* DetailRoomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailRoomViewController.m; sourceTree = "<group>"; };
+		4D6AEEA71987D9650058200C /* wifi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wifi.png; sourceTree = "<group>"; };
+		4D6AEEA91987D9C60058200C /* ame3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ame3.png; sourceTree = "<group>"; };
+		4D6AEEAA1987D9C60058200C /* ame2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ame2.png; sourceTree = "<group>"; };
+		4D6AEEAB1987D9C60058200C /* ame1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ame1.png; sourceTree = "<group>"; };
 		4DAF58A21970372E0032F2A9 /* DiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoverViewController.h; sourceTree = "<group>"; };
 		4DAF58A31970372E0032F2A9 /* DiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoverViewController.m; sourceTree = "<group>"; };
 		4DAF58A8197041300032F2A9 /* HistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryViewController.h; sourceTree = "<group>"; };
@@ -176,6 +184,10 @@
 				4DAF58AC1970415F0032F2A9 /* FavoriteViewController.m */,
 				4DAF58B4197215BE0032F2A9 /* HistoryTableViewController.h */,
 				4DAF58B5197215BE0032F2A9 /* HistoryTableViewController.m */,
+				4D6AEEA91987D9C60058200C /* ame3.png */,
+				4D6AEEAA1987D9C60058200C /* ame2.png */,
+				4D6AEEAB1987D9C60058200C /* ame1.png */,
+				4D6AEEA71987D9650058200C /* wifi.png */,
 				4DAF58BC197244750032F2A9 /* oasisLogo6.png */,
 				4DAF58BA197241C30032F2A9 /* oasisLogo3.png */,
 				4DF71586196D2681008D0DCF /* example1.jpg */,
@@ -293,13 +305,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DAF58BB197241C30032F2A9 /* oasisLogo3.png in Resources */,
+				4D6AEEAC1987D9C60058200C /* ame3.png in Resources */,
 				4DF71589196D2681008D0DCF /* example1.jpg in Resources */,
+				4D6AEEA81987D9650058200C /* wifi.png in Resources */,
 				4DF7156A196C2B4A008D0DCF /* Images.xcassets in Resources */,
 				4DF7155C196C2B4A008D0DCF /* InfoPlist.strings in Resources */,
 				4DF71565196C2B4A008D0DCF /* Main.storyboard in Resources */,
 				4DF7158B196D2681008D0DCF /* example3.jpg in Resources */,
 				4DF7158A196D2681008D0DCF /* example2.jpg in Resources */,
 				4DAF58BD197244750032F2A9 /* oasisLogo6.png in Resources */,
+				4D6AEEAD1987D9C60058200C /* ame2.png in Resources */,
+				4D6AEEAE1987D9C60058200C /* ame1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
