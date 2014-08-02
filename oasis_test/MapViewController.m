@@ -37,9 +37,9 @@
     [mapData addObject:data1];
     NSDictionary *data2 = [NSDictionary dictionaryWithObjectsAndKeys:@"新宿カフェ",@"title",@"広くて、ゆったりとした時間を過ごせます",@"subtitle",[NSNumber numberWithFloat:35.73],@"lat",[NSNumber numberWithFloat:139.80941],@"lon", nil];
     [mapData addObject:data2];
-    NSDictionary *data3 = [NSDictionary dictionaryWithObjectsAndKeys:@"渋谷カフェ",@"title",@"とても綺麗なカフェです",@"subtitle",[NSNumber numberWithFloat:35.72],@"lat",[NSNumber numberWithFloat:139.9],@"lon", nil];
+    NSDictionary *data3 = [NSDictionary dictionaryWithObjectsAndKeys:@"渋谷カフェ2",@"title",@"とても綺麗なカフェです",@"subtitle",[NSNumber numberWithFloat:35.72],@"lat",[NSNumber numberWithFloat:139.9],@"lon", nil];
     [mapData addObject:data3];
-    NSDictionary *data4 = [NSDictionary dictionaryWithObjectsAndKeys:@"新宿カフェ",@"title",@"広くて、ゆったりとした時間を過ごせます",@"subtitle",[NSNumber numberWithFloat:35.73],@"lat",[NSNumber numberWithFloat:139.7],@"lon", nil];
+    NSDictionary *data4 = [NSDictionary dictionaryWithObjectsAndKeys:@"新宿カフェ2",@"title",@"広くて、ゆったりとした時間を過ごせます",@"subtitle",[NSNumber numberWithFloat:35.73],@"lat",[NSNumber numberWithFloat:139.7],@"lon", nil];
     [mapData addObject:data4];
 
     [self mapCreate];
@@ -55,7 +55,10 @@
 -(void)mapCreate{
     float now_latitude = 35.7100721;
     float now_longitude = 139.809471;
-    
+    NSLog(@"%f,%f",now_latitude-35.72,now_longitude-139.809471);
+    float zoom_level = MAX(fabs(now_latitude-35.73),fabs(now_longitude-139.7));
+    NSLog(@"%f,%f,max=%f",now_latitude-35.73,now_longitude-139.7,zoom_level);
+
     //NSString *title = @"タイトル";
     //NSString *subTitle = @"さぶたいとる";
     
@@ -77,8 +80,8 @@
     //縮尺を設定
     MKCoordinateRegion cr = mapView.region;
     cr.center = locationCoordinate;
-    cr.span.latitudeDelta = 0.5;
-    cr.span.longitudeDelta = 0.5;
+    cr.span.latitudeDelta = zoom_level*1.0;
+    cr.span.longitudeDelta = zoom_level*1.0;
     [mapView setRegion:cr];
     // マップを表示
     //[self.view addSubview:mapView];
